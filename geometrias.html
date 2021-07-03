@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bibliotecas básicas -->
+    <script src="./libs/three/three.js"></script>
+    <script src="./libs/three/controls/OrbitControls.js" ></script>
+
+    <!-- Biblioteca auxiliar que apresenta um menu lateral pra interagir com a cena -->
+    <script src="./libs/dat.gui.js" ></script>
+
+    <!-- Carregamento do módulo do exemplo de geometrias -->
+    <script src="./js/geometrias.js" ></script>
+
+    <title> Exemplo - geometrias </title>
+    <style>
+      body {
+        margin: 0; /* Sem margem no body da pagina */
+        overflow: hidden; /* Oculta a barra de rolagem caso a página fique extensa*/
+      }
+      canvas {
+        display: block;
+        width: 100%; /* Ocupa 100% da tela */
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Mundo"></div>
+    <script type="text/javascript">
+      main();
+    </script>
+  </body>
+</html>
