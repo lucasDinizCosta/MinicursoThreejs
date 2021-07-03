@@ -61,7 +61,10 @@ function main(){
     orbitControls.maxDistance = 100;        // Zoom minimo
 
     // Mesmo material para todos os objetos
-    let objectMaterial = new THREE.MeshPhongMaterial({color: "rgb(255,120, 22)", side: THREE.DoubleSide});
+    let objectMaterial = new THREE.MeshPhongMaterial({
+        color: "rgb(255,120, 22)", 
+        side: THREE.DoubleSide
+    });
 
     // Adiciona os sólidos em cena
     let objectArray = new Array();
